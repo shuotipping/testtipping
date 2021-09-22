@@ -1,0 +1,13 @@
+                                                        递归
+1.阶乘函数
+定义数学逻辑
+f（n）=  n！=1                 n=0 
+          =f（n）*f（n-1）    n>0
+
+
+int factorial (int n){
+  if(n=0)
+   return 1;
+ return n*factorial(n-1);
+
+
